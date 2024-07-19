@@ -68,7 +68,7 @@
     bottom: 0;
     background: blue;
     z-index: 9; 
-    width: 200px;
+    width: 400px;
     padding-top: 20px;
     padding-left: 15px;
     transition: right 0.5s; 
@@ -89,6 +89,6 @@
   }
 
   .hide-mobile-menu {
-    right: -20px;
+    right: -220px;
   }
 }
