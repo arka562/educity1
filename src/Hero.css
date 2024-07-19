@@ -1,0 +1,50 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('./assets/hero.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  min-width: 100%;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 55px;
+  font-weight: 500;
+}
+
+.hero-text p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.arrow {
+  width: 30px;
+  margin-left: 8px;
+}
+
+@media (max-width: 850px) {
+  .hero-text h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero-text h1 {
+    font-size: 20px;
+    margin: auto;
+    max-width: 400px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+    margin: 14px 12px;
+  }
+}
